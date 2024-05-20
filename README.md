@@ -62,4 +62,54 @@ answer
     M - Modified files
     D - Deleted files
 `
+- 4. 3) For checking history of commits you could use this command :book: :
+```
+git log
+```
+- 5. If you are having trouble remembering commands or options for commands, you can use Git help.
+
+There are a couple of different ways you can use the help command in command line:
+
+- 5. 1) `git command -help` -  See all the available options for the specific command
+- 5. 2) `git help --all` -  See all possible commands
+ Let's go over the different commands.
+
+- 6. We are working in our local repository, and we do not want to disturb or possibly wreck the main project.
+
+- 6. 1) So we create a new branch with command:
+```
+git branch <branch name>
+```
+- 6. 2) For checking existing branches use command:
+```
+git branch
+```
+- 6. 3) For **switching** between branches use command:
+```
+git checkout <branch name>
+```
+- 6. 4) For creating new branch and after move to it use command:
+```
+git checkout -b <branch name>
+```
+- 6. 5) You could create new branch and new files in it with modifications without changing in core branch like "main" or master.
+
+It will be save just after **commiting** in this *new branch*
+- 6. 6) **If we create branch it will create ahead of existing branch**.
+
+- 7. Merging of branches
+For merging brances we need
+1) **Switch to branch that we want to merge (for example *"main"*)**
+2) Run command for merging
+```
+git merge <branch name>
+``` 
+- 7. 1) After merging branch with some fixes (as example "emergency_fix_1") both branches "main" and "emergency_fix_1" have the same last commit, that`s mean that we could delete branch in what we done this fixes.
+
+For doing this you should use command:
+```
+git branch -d <branch name>
+```
+
+
 
