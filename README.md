@@ -76,7 +76,23 @@ There are a couple of different ways you can use the help command in command lin
 
 - 6. We are working in our local repository, and we do not want to disturb or possibly wreck the main project.
 
-So we create a new branch with command:
+- 6. 1) So we create a new branch with command:
 ```
-git branch <name of branch>
+git branch <branch name>
 ```
+- 6. 2) For checking existing branches use command:
+```
+git branch
+```
+- 6. 3) For **switching** between branches use command:
+```
+git checkout <branch name>
+```
+- 6. 4) For creating new branch and after move to it use command:
+```
+git checkout -b <branch name>
+```
+- 6. 5) You could create new branch and new files in it with modifications without changing in core branch like "main" or master.
+
+It will be save just after **commiting** in this *new branch*
+
