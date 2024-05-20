@@ -62,4 +62,21 @@ answer
     M - Modified files
     D - Deleted files
 `
+- 4. 3) For checking history of commits you could use this command :book: :
+```
+git log
+```
+- 5. If you are having trouble remembering commands or options for commands, you can use Git help.
 
+There are a couple of different ways you can use the help command in command line:
+
+- 5. 1) `git command -help` -  See all the available options for the specific command
+- 5. 2) `git help --all` -  See all possible commands
+ Let's go over the different commands.
+
+- 6. We are working in our local repository, and we do not want to disturb or possibly wreck the main project.
+
+So we create a new branch with command:
+```
+git branch <name of branch>
+```
