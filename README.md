@@ -26,6 +26,10 @@ git add --all
 or
 git add -A
 ```
+- 3. 4) If file was **modified** we could restore them from **Staging env** by using this command:
+```
+git restore --staged <file>
+```
 - 4. Adding commits keep track of our progress and changes as we work. Git considers each commit change point or "save point". It is a point in the project you can go back to if you find a bug, or want to make a change.
 ```
 git commit -m "First release of git_tutorial!"
