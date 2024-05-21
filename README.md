@@ -112,7 +112,7 @@ For merging brances we need\
 ```
 git merge <branch name>
 ``` 
-7.3 deleting unused branch
+7.3 Deleting unused branch
 > [!TIP] 
 After merging branch with some fixes (as example "emergency_fix_1") both branches "main" and "emergency_fix_1" have the same last commit, that`s mean that we could delete branch in what we done this fixes.
 
@@ -120,6 +120,21 @@ After merging branch with some fixes (as example "emergency_fix_1") both branche
 ```
 git branch -d <branch name>
 ```
+8. When working as a team on a project, it is important that everyone stays up to date.
+
+Any time you start working on a *project*, you should get the most *recent changes* to your *local copy*.
+
+With Git, you can do that with pull.
+
+pull is a combination of 2 different commands:
+
+```
+fetch
+merge
+```
+
+Let's take a closer look into how fetch, merge, and pull works.
+
 
 
 
