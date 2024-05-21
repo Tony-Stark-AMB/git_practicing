@@ -70,7 +70,8 @@ answer
 ```
 git log
 ```
-5. > [!WARNING] 
+5. All git commands
+> [!WARNING] 
 If you are having trouble remembering commands or options for commands, you can use Git help.
 
 There are a couple of different ways you can use the help command in command line:
