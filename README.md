@@ -9,7 +9,7 @@ git init
 git status
 ```
 Will show that commits and files that have been tracked earlier
-
+[!IMPORTANT]
 files can be in **2** states
 `Tracked` - files that Git knows about and are added to repository
 `Untracked` - files that Git don\`t knows about and don\`t be added to repository
@@ -59,7 +59,7 @@ answer
 ```
 4.2 For checking **git status** :ledger: in more good visible form we could use this command:
 `
-**Note:** Short status flags are:
+[!NOTE] Short status flags are:
 
     ?? - Untracked files
     A - Files added to stage
@@ -70,7 +70,7 @@ answer
 ```
 git log
 ```
-5. If you are having trouble remembering commands or options for commands, you can use Git help.
+5. [!WARNING] If you are having trouble remembering commands or options for commands, you can use Git help.
 
 There are a couple of different ways you can use the help command in command line:
 
@@ -99,7 +99,7 @@ git checkout -b <branch name>
 6.5 You could create new branch and new files in it with modifications without changing in core branch like "main" or master.
 
 It will be save just after **commiting** in this *new branch*
-6.6 **If we create branch it will create ahead of existing branch**.
+6.6  [!IMPORTANT] **If we create branch it will create ahead of existing branch**.
 
 7. Merging of branches
 For merging brances we need
@@ -108,7 +108,7 @@ For merging brances we need
 ```
 git merge <branch name>
 ``` 
-7.3 After merging branch with some fixes (as example "emergency_fix_1") both branches "main" and "emergency_fix_1" have the same last commit, that`s mean that we could delete branch in what we done this fixes.
+7.3 [!TIP] After merging branch with some fixes (as example "emergency_fix_1") both branches "main" and "emergency_fix_1" have the same last commit, that`s mean that we could delete branch in what we done this fixes.
 
 7.4 For doing this you should use command:
 ```
