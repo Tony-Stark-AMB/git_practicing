@@ -58,14 +58,14 @@ answer
  1 file changed, 1 insertion(+)
 ```
 4.2 For checking **git status** :ledger: in more good visible form we could use this command:
-`
+
 > [!NOTE] 
   Short status flags are:\
     ?? - Untracked files\
     A - Files added to stage\
     M - Modified files\
     D - Deleted files
-`
+
 4.3 For checking history of commits you could use this command :book: :
 ```
 git log
