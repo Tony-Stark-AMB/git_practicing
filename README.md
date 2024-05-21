@@ -47,7 +47,7 @@ git commit -m "First release of git_tutorial!"
 The commit command performs a commit, and the -m "message" adds a message.
 
 The Staging Environment has been committed to our repo, with the message:
-"First release of git_tutorial!"
+`"First release of git_tutorial!"`\
 4.1 If we have small changes in some files we could commit with flag **-a**:
 ```
 git commit -a -m "First release of git_tutorial!"
@@ -75,7 +75,7 @@ If you are having trouble remembering commands or options for commands, you can 
 
 There are a couple of different ways you can use the help command in command line:
 
-5.1 `git command -help` -  See all the available options for the specific command
+5.1 `git command -help` -  See all the available options for the specific command\
 5.2 `git help --all` -  See all possible commands
  Let's go over the different commands.
 
@@ -105,13 +105,13 @@ It will be save just after **commiting** in this *new branch*
 **If we create branch it will create ahead of existing branch**.
 
 7. Merging of branches
-For merging brances we need
-7.1 **Switch to branch that we want to merge (for example *"main"*)**
+For merging brances we need\
+7.1 **Switch to branch that we want to merge (for example *"main"*)**\
 7.2 Run command for merging
 ```
 git merge <branch name>
 ``` 
-7.3 
+7.3 deleting unused branch
 > [!TIP] 
 After merging branch with some fixes (as example "emergency_fix_1") both branches "main" and "emergency_fix_1" have the same last commit, that`s mean that we could delete branch in what we done this fixes.
 
