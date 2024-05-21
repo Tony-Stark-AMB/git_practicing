@@ -1,9 +1,13 @@
 # Git tutorial for work 
 1. Go to folder where you want to create repository
 2. In cmd or git bash run command:
+```
 git init
+```
 3. Command:
+```
 git status
+```
 Will show that commits and files that have been tracked earlier
 
 files can be in **2** states
